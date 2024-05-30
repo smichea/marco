@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marco's Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #4caf50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header img {
+            width: 100px;
+            border-radius: 50%;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        .projects {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .project {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 10px;
+            margin: 10px;
+            width: 30%;
+        }
+        .project img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #4caf50;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Marco's Website</h1>
+    <img src="images/marco-coding.png" alt="Marco Coding">
+</header>
+
+<section>
+    <h2>Projects</h2>
+    <div class="projects">
+        <div class="project">
+            <img src="images/project2.png" alt="Project 2">
+            <h3>Project 2</h3>
+            <p>Brief description of project 2.</p>
+            <a href="#">Learn More</a>
+        </div>
+        <div class="project">
+            <img src="images/project3.png" alt="Project 3">
+            <h3>Project 3</h3>
+            <p>Brief description of project 3.</p>
+            <a href="#">Learn More</a>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Contact Marco</h2>
+    <form>
+        <input type="text" name="name" placeholder="Your Name" required>
+        <br>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <br>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <br>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2024 Marco's Website</p>
+    <a href="#">LinkedIn</a>
+    <a href="#">GitHub</a>
+    <a href="#">Twitter</a>
+</footer>
+
+</body>
+</html>
