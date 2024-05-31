@@ -9,6 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@scaleway/serverless-functions": "^1.1.1",
+    "openai": "^4.47.2",
     "openai-api": "^1.3.1"
   }
 }
